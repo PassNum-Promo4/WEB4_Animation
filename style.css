@@ -1,0 +1,31 @@
+.container {
+  background-color: red;
+  position: relative;
+}
+
+p {
+  position: relative;
+}
+
+
+.block--blue {
+  background-color: blue;
+  position: absolute;
+  height: 100%;
+  animation-duration: 5s;
+  animation-name: slide;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+  from {
+    width:0%;
+    margin-left: 100%;
+  }
+
+  to {
+    width:100%;
+    margin-left: 0%;
+  }
+}
+
